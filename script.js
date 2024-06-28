@@ -10,7 +10,7 @@ let round           = 0;
 
 
 const body = document.getElementById("body");
-// wjere human score get displayed
+// where human score get displayed
 const human = document.createElement("div");
 const humanScoreNode = document.createTextNode("you score "+humanScore);
 human.appendChild(humanScoreNode);
